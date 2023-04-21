@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [ImageController::class, 'index']);
 
-Route::post('/create-zip', [ImageController::class, 'store'])->name('create.zip');
+Route::post('/', [ImageController::class, 'store'])->name('zipArray');
